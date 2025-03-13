@@ -10,6 +10,7 @@ module.exports = {
         background: "#f8f9fa",
         dark: "#222",
         light: "#ffffff",
+        navbar: "#1E293B"
       },
       fontFamily: {
         body: ["Poppins", "sans-serif"],
@@ -31,8 +32,8 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/forms"), // Better form styling
-    require("@tailwindcss/typography"), // Enhanced typography
-    require("@tailwindcss/aspect-ratio"), // Responsive image aspect ratios
+    require("@tailwindcss/forms"), 
+    require("@tailwindcss/typography"), 
+    require("@tailwindcss/aspect-ratio"),
   ],
 };
